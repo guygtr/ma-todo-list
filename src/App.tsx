@@ -144,7 +144,7 @@ function App() {
         
         {/* En-tête */}
         <div className={`p-6 text-center relative ${darkMode ? 'bg-blue-800' : 'bg-blue-600'} text-white`}>
-          <h1 className="text-3xl font-bold">Ma Liste de Tâches v3</h1>
+          <h1 className="text-3xl font-bold">Ma Liste de Tâches v4</h1>
           <p className="mt-2 text-lg opacity-90">
             {remainingTasks} restante{remainingTasks !== 1 ? 's' : ''} / {totalTasks} totale{totalTasks !== 1 ? 's' : ''}
           </p>
